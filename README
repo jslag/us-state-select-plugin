@@ -2,4 +2,9 @@ UsStates
 ========
 
 From http://svn.techno-weenie.net/projects/plugins/us_states/, updated
-to run under rails 2.2
+to run under rails 2.2.
+
+To select "priority" states that show up at the top of the list, call
+like so:
+
+<%= us_state_select 'child', 'state', :priority => %w(TX CA) %> 
